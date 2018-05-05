@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Build Tools -->
+  <project path="build_tools" name="Kiborg-Man/build_tools" remote="github" revision="rr-7.1"/>
+
+  <!-- Device Tree -->
+  <project path="device/samsung/i9152" name="Kiborg-Man/android_device_samsung_i9152" remote="github" revision="rr-7.1"/>
+
+  <!-- Kernel Source -->
+  <project path="kernel/samsung/i9152" name="Kiborg-Man/android_kernel_samsung_i9152" remote="github" revision="android-7.1"/>
+
+  <!-- Proprietary files -->
+  <project path="vendor/samsung/i9152" name="ghsr/proprietary_vendor_samsung_i9152" remote="github" revision="android-7.1"/>
+
+  <!-- Dependencies
+  <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" /> -->
+  <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1"/>
+  <remove-project name="LineageOS/android_external_chromium-webview"/>
+  <project path="external/chromium-webview" remote="github" name="ghsr/android_external_chromium-webview" revision="aosp-7.0" clone-depth="1"/>
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-14.1"/>
+  <project path="packages/apps/SamsungServiceMode" name="LineageOS/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-14.1"/>
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1"/>
+</manifest>
